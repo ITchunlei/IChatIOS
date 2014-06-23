@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8E47F3A71958717800F9D5F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E47F3A91958717800F9D5F0 /* Storyboard.storyboard */; };
+		8E47F3AC1958751200F9D5F0 /* ICSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47F3AB1958751200F9D5F0 /* ICSplashViewController.m */; };
+		8E47F3AF195875F200F9D5F0 /* ICLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E47F3AE195875F200F9D5F0 /* ICLoginViewController.m */; };
 		8E998A4A19585C580025A6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4919585C580025A6B4 /* Foundation.framework */; };
 		8E998A4C19585C580025A6B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4B19585C580025A6B4 /* CoreGraphics.framework */; };
 		8E998A4E19585C580025A6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4D19585C580025A6B4 /* UIKit.framework */; };
@@ -34,6 +36,10 @@
 
 /* Begin PBXFileReference section */
 		8E47F3A81958717800F9D5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
+		8E47F3AA1958751200F9D5F0 /* ICSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICSplashViewController.h; sourceTree = "<group>"; };
+		8E47F3AB1958751200F9D5F0 /* ICSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICSplashViewController.m; sourceTree = "<group>"; };
+		8E47F3AD195875F200F9D5F0 /* ICLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICLoginViewController.h; sourceTree = "<group>"; };
+		8E47F3AE195875F200F9D5F0 /* ICLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICLoginViewController.m; sourceTree = "<group>"; };
 		8E998A4619585C580025A6B4 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E998A4919585C580025A6B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E998A4B19585C580025A6B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -114,6 +120,10 @@
 				8E998A5B19585C580025A6B4 /* Images.xcassets */,
 				8E998A5019585C580025A6B4 /* Supporting Files */,
 				8E47F3A91958717800F9D5F0 /* Storyboard.storyboard */,
+				8E47F3AA1958751200F9D5F0 /* ICSplashViewController.h */,
+				8E47F3AB1958751200F9D5F0 /* ICSplashViewController.m */,
+				8E47F3AD195875F200F9D5F0 /* ICLoginViewController.h */,
+				8E47F3AE195875F200F9D5F0 /* ICLoginViewController.m */,
 			);
 			path = IChat;
 			sourceTree = "<group>";
@@ -245,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E998A5A19585C580025A6B4 /* ICAppDelegate.m in Sources */,
+				8E47F3AC1958751200F9D5F0 /* ICSplashViewController.m in Sources */,
+				8E47F3AF195875F200F9D5F0 /* ICLoginViewController.m in Sources */,
 				8E998A5619585C580025A6B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

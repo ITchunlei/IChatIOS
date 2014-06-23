@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Splash View Controller-->
         <scene sceneID="jjK-e2-uZu">
             <objects>
-                <viewController id="oDU-MO-JHX" sceneMemberID="viewController">
+                <viewController id="oDU-MO-JHX" customClass="ICSplashViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pLg-eM-fqL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -22,10 +22,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="N4w-o1-94Q" kind="modal" id="bE2-zP-hVu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x7L-xd-sNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="15" y="-69"/>
+            <point key="canvasLocation" x="-153" y="-493"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="J0v-qt-Ngm">
+            <objects>
+                <viewController id="N4w-o1-94Q" customClass="ICLoginViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ubI-HV-ujj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dRK-zY-qHt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="357" y="-665"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
