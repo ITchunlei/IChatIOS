@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E47F3A71958717800F9D5F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E47F3A91958717800F9D5F0 /* Storyboard.storyboard */; };
 		8E998A4A19585C580025A6B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4919585C580025A6B4 /* Foundation.framework */; };
 		8E998A4C19585C580025A6B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4B19585C580025A6B4 /* CoreGraphics.framework */; };
 		8E998A4E19585C580025A6B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E998A4D19585C580025A6B4 /* UIKit.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E47F3A81958717800F9D5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		8E998A4619585C580025A6B4 /* IChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E998A4919585C580025A6B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8E998A4B19585C580025A6B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +113,7 @@
 				8E998A5919585C580025A6B4 /* ICAppDelegate.m */,
 				8E998A5B19585C580025A6B4 /* Images.xcassets */,
 				8E998A5019585C580025A6B4 /* Supporting Files */,
+				8E47F3A91958717800F9D5F0 /* Storyboard.storyboard */,
 			);
 			path = IChat;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				8E998A5419585C580025A6B4 /* InfoPlist.strings in Resources */,
 				8E998A5C19585C580025A6B4 /* Images.xcassets in Resources */,
+				8E47F3A71958717800F9D5F0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +268,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		8E47F3A91958717800F9D5F0 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E47F3A81958717800F9D5F0 /* en */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
 		8E998A5219585C580025A6B4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -440,6 +452,7 @@
 				8E998A7419585C580025A6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8E998A7519585C580025A6B4 /* Build configuration list for PBXNativeTarget "IChatTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +461,7 @@
 				8E998A7719585C580025A6B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
